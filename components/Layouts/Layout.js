@@ -10,37 +10,37 @@ const Layout = ({ children }) => {
 
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Black.ttf'
+					href='/public/font/PFAgoraSansPro-Black.ttf'
 					as='font'
 					crossOrigin=''
 				/>
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Bold.ttf'
+					href='/public/font/PFAgoraSansPro-Bold.ttf'
 					as='font'
 					crossOrigin=''
 				/>
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Light.ttf'
+					href='/public/font/PFAgoraSansPro-Light.ttf'
 					as='font'
 					crossOrigin=''
 				/>
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Medium.ttf'
+					href='/public/font/PFAgoraSansPro-Medium.ttf'
 					as='font'
 					crossOrigin=''
 				/>
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Regular.ttf'
+					href='/public/font/PFAgoraSansPro-Regular.ttf'
 					as='font'
 					crossOrigin=''
 				/>
 				<link
 					rel='preload'
-					href='/font/PFAgoraSansPro-Thin.ttf'
+					href='/public/font/PFAgoraSansPro-Thin.ttf'
 					as='font'
 					crossOrigin=''
 				/>

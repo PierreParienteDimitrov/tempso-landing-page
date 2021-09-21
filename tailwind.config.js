@@ -4,6 +4,14 @@ module.exports = {
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		fontWeight: {
+			thin: 200,
+			light: 300,
+			regular: 400,
+			medium: 500,
+			bold: 800,
+			black: 900,
+		},
 		colors: {
 			white: '#FFFFFF',
 			background: '#131313',
