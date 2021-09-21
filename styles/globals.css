@@ -56,3 +56,7 @@ body {
 	margin: 0;
 	font-family: 'PFAgoraSansPro', sans-serif;
 }
+
+* {
+	box-sizing: border-box;
+}
