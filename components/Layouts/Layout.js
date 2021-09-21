@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 const Layout = ({ children }) => {
 	return (
@@ -7,43 +6,6 @@ const Layout = ({ children }) => {
 			<Head>
 				<title>Aligned Agency</title>
 				<link rel='icon' href='/favicon.png' />
-
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Black.ttf'
-					as='font'
-					crossOrigin=''
-				/>
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Bold.ttf'
-					as='font'
-					crossOrigin=''
-				/>
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Light.ttf'
-					as='font'
-					crossOrigin=''
-				/>
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Medium.ttf'
-					as='font'
-					crossOrigin=''
-				/>
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Regular.ttf'
-					as='font'
-					crossOrigin=''
-				/>
-				<link
-					rel='preload'
-					href='/public/font/PFAgoraSansPro-Thin.ttf'
-					as='font'
-					crossOrigin=''
-				/>
 			</Head>
 			<body>
 				<h1 className='font-thin'>Navbar</h1>
