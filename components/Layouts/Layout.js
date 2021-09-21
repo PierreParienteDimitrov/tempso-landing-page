@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 				<link rel='icon' href='/favicon.png' />
 			</Head>
 			<body>
-				<h1 className='font-thin'>Navbar</h1>
+				<h1>Navbar</h1>
 				{children}
 				<h1>footer</h1>
 			</body>

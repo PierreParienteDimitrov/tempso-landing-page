@@ -5,11 +5,11 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		fontWeight: {
-			thin: 200,
+			thin: 100,
 			light: 300,
 			regular: 400,
 			medium: 500,
-			bold: 800,
+			bold: 600,
 			black: 900,
 		},
 		colors: {
