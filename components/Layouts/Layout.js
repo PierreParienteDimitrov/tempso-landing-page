@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
 			<Head>
 				<title>Aligned Agency</title>
 				<link rel='icon' href='/favicon.png' />
+
 				<link
 					rel='preload'
 					href='/font/PFAgoraSansPro-Black.ttf'
