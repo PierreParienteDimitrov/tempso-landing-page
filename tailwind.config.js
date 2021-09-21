@@ -4,17 +4,17 @@ module.exports = {
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		fontWeight: {
-			thin: 100,
-			light: 300,
-			regular: 400,
-			medium: 500,
-			bold: 600,
-			black: 900,
-		},
-		fontFamily: {
-			sans: ['PF Agora Sans Pro', 'Helvetica', 'Arial', 'sans-serif'],
-		},
+		// fontWeight: {
+		// 	thin: 100,
+		// 	light: 300,
+		// 	regular: 400,
+		// 	medium: 500,
+		// 	bold: 600,
+		// 	black: 900,
+		// },
+		// fontFamily: {
+		// 	sans: ['PF Agora Sans Pro', 'Helvetica', 'Arial', 'sans-serif'],
+		// },
 		colors: {
 			white: '#FFFFFF',
 			background: '#131313',
