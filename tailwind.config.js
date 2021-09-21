@@ -12,6 +12,9 @@ module.exports = {
 			bold: 600,
 			black: 900,
 		},
+		fontFamily: {
+			sans: ['PF Agora Sans Pro', 'Helvetica', 'Arial', 'sans-serif'],
+		},
 		colors: {
 			white: '#FFFFFF',
 			background: '#131313',
