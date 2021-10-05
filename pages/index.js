@@ -1,22 +1,15 @@
 import Head from 'next/head';
+import Homescreen from '../components/Homepage/Homescreen';
 
 export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Create Next App</title>
-				<link rel='icon' href='/favicon.ico' />
+				<title>Tempso - (re)discover classical music!</title>
 			</Head>
 
 			<main>
-				<h3 className='font-thin'>Thin</h3>
-				<h3 className='font-light'>Light</h3>
-				<h3 className='font-regular'>Regular</h3>
-				<h3 className='font-medium'>Medium</h3>
-				<h3 className='font-bold'>Bold</h3>
-				<h3 className='font-black'>Black</h3>
-
-				<h3></h3>
+				<Homescreen />
 			</main>
 		</>
 	);
