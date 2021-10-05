@@ -4,13 +4,36 @@ module.exports = {
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		minWidth: {
+			0: '0',
+			'1/4': '25%',
+			'1/2': '50%',
+			'3/4': '75%',
+			full: '100%',
+		},
+		maxWidth: {
+			'1/4': '25%',
+			'1/2': '50%',
+			'3/4': '75%',
+		},
+		height: {
+			sm: '8px',
+			md: '16px',
+			lg: '24px',
+			'40vh': '40vh',
+		},
+		flexGrow: {
+			0: 0,
+			0.5: 0.5,
+			DEFAULT: 1,
+		},
 		fontWeight: {
-			thin: 100,
 			light: 300,
 			regular: 400,
 			medium: 500,
-			bold: 600,
-			black: 900,
+			semibold: 600,
+			bold: 700,
+			extrabold: 800,
 		},
 
 		colors: {
